@@ -1,0 +1,47 @@
+/*  Global
+------------------------ */
+
+.surface-clear {
+	clear: both;
+	height: 0px;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.surface-focus {
+	color: #dc4b39;
+	font-weight: bold;
+}
+
+/*  Tabs
+------------------------ */
+
+.surface-tabs h3 { 
+	display:none;
+}
+
+.surface-tabs {
+	margin: 15px 0 15px 0;
+}
+
+.surface-tabs h2 {
+	margin: 0 8px;
+}
+
+.surface-tabs-content {
+	padding: 10px;
+}
+
+.surface-tabs-content a:link,
+.surface-tabs-content a:visited,
+.surface-tabs-data a:link,
+.surface-tabs-data a:visited {
+	color: #dc4b39;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.surface-tabs-content a:hover,
+.surface-tabs-data a:hover {
+	text-decoration: underline;
+}

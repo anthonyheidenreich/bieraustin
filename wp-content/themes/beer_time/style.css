@@ -1,0 +1,667 @@
+/*
+Theme Name: Beer Time Theme
+Theme URI: N/A
+Description: The Beer Time Theme for WordPress has been carefully nurtured and bottled for your discerning palate. Another superb theme for beer lovers everwhere incorporating a hop leaf background and an array of beer bottles. Designed by Adnams Cellar and Kitchen.
+Tags: green, black, red, white, fixed width, right naivgation, 2 columns
+Version: 1.0
+Author: Adnams Cellar and Kitchen
+Author URI: http://cellarandkitchen.adnams.co.uk
+The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+*/
+@import "reset-min.css";
+
+/* Global
+-------------------------------------*/
+
+/* slightly enhanced, universal clearfix hack */
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+a
+{
+ text-decoration:none;
+}
+
+a:hover
+{
+ text-decoration:underline;
+}
+
+p
+{
+ margin-top:25px;
+ font-size:1.2em;
+ line-height:150%;
+}
+
+p a
+{
+ color:#333;
+ font-weight:bold;
+}
+
+/* Layout
+-------------------------------------*/
+
+body
+{
+        margin:0;
+        font-size: 62.5%;
+        background:#141C07 url("images/bkg.jpg") repeat-x top left;
+        color: #333;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+        position: relative;
+        width: 900px;
+        margin:0 auto;
+}
+
+#header
+{
+    height:296px;
+    position:relative;
+    background: url("images/beer.png") no-repeat 100% 100%;
+}
+
+#header h1 a
+{
+    top:77px;
+    left:0px;
+    font-size:3.7em;
+    font-weight:bold;
+    color:#fff;
+    position:absolute;
+    font-family:Arial;
+    line-height:0.8em;
+}
+
+#header h1 a span
+{
+ font-size:0.6em;
+}
+
+#header .logo:hover
+{
+ text-decoration:none;
+}
+
+#rss
+{
+ height:84px;
+ width:268px;
+ background: url("images/rss.jpg") no-repeat;
+ display:block;
+ text-indent:-9999px;
+ outline:none;
+}
+
+ul#nav
+{
+  list-style-type:none;
+  display:inline;
+  margin:0;
+  float:left;
+  position:absolute;
+  bottom:10px;
+  left:0;
+}
+
+ul#nav li
+{
+ float:left;
+ margin-right:6px;
+}
+
+ul#nav li a
+{
+ font-weight:bold;
+ font-size:1.2em;
+ display:block;
+ float:left;
+ color:#141C07;
+ padding:10px 30px 20px 30px;
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-topleft: 10px;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-top-left-radius: 10px;
+ background:url("images/nav.jpg") repeat-x 0 0;
+}
+
+ul#nav li a:hover
+{
+      text-decoration:none;
+      color:#fff;
+}
+
+ul#nav li.current_page_item a
+{
+ color:#fff;
+ background-position:0 -71px;
+}
+
+#content
+{
+
+ width:900px;
+ background-color:#fff;
+ margin-bottom:20px;
+}
+
+#column1
+{
+ width:600px;
+ float:left;
+ padding-left:20px;
+ display:inline;
+}
+
+#column2
+{
+ width:268px;
+ float:left;
+ display:inline;
+ margin:0 0 10px 10px;
+}
+
+#footer
+{
+ clear:left;
+ padding:50px 0 20px 0;
+}
+
+#footer ul
+{
+ width:350px;
+ float:left;
+}
+
+#footer ul li
+{
+ float:left;
+ padding-right:3px;
+ font-size:1.1em;
+ color:#666;
+}
+
+#footer ul li a
+{
+ float:left;
+ color:#666;
+ padding-right:0;
+ font-size:11px;
+}
+
+#footer #copyright
+{
+   width:150px;
+   float:right;
+   color:#666;
+   font-size:1.1em;
+}
+
+#footer #copyright a
+{
+ color:#666;
+}
+
+/* Column1
+-------------------------------------*/
+
+h2, h3
+{
+ font-size:2.5em;
+ font-weight:bold;
+ font-family:Arial;
+ color:#112233;
+ padding:27px 0 7px 0;
+}
+
+h3
+{
+    padding:10px 0 10px 0;
+}
+
+h2 a
+{
+  color:#112233;
+}
+
+.posted
+{
+ color:#585858;
+ font-size:1.1em;
+ margin-top:0 !important;
+}
+
+.posted a
+{
+color:#585858;
+}
+
+.post
+{
+  padding-bottom:25px;
+  border-bottom:solid 1px #666666;
+  position:relative;
+}
+
+.post img
+{
+ margin-top:25px;
+}
+
+a.more-link
+{
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  color: #5C6A64;
+  text-decoration: underline;
+  font-weight:bold;
+  font-size:0.9em;
+  }
+
+.comments
+{
+        background: url("images/speech.gif") no-repeat 0 0;
+        padding-left:22px;
+        margin-top:20px;
+        font-size:1.1em;
+}
+
+.comments a
+{
+        color:#5C6A64;
+        font-weight:bold;
+        text-decoration: underline;
+}
+
+.comments a:hover
+{
+        text-decoration:underline;
+}
+
+.comments div
+{
+        float:right;
+}
+
+/* Column2
+----------------------------------*/
+
+.cbox
+{
+ width:268px;
+ background:url("images/column2bkg.jpg") repeat-y 0 0;
+}
+
+.cboxbottom
+{
+ background:url("images/column2bot.jpg") no-repeat 0 100%;
+ width:268px;
+ height:11px;
+}
+
+.cbox .inner
+{
+ width:223px;
+ padding-left:20px;
+}
+
+#column2 h2
+{
+ color:#1F2F3F;
+ font-size:1.6em;
+ font-weight:bold;
+ padding:10px 0;
+}
+
+#column2 ul
+{
+ border-bottom:solid 1px #B2B2B2;
+ width:222px;
+ padding-bottom:15px;
+}
+
+#column2 ul li a
+{
+ font-size:1.2em;
+ line-height:1.6em;
+ color:#5C6A64;
+}
+
+#column2 ul.last
+{
+ border-bottom:none;
+}
+
+/* Standard Wordpress Comments Styling
+----------------------------------------*/
+
+.navigation {
+  float: left;
+  width: 597px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  }
+.navigation a
+{
+  font-size: 1.2em;
+  color: #333;
+  }
+.alignright {
+  float: right;
+  }
+.alignleft {
+  float: left
+  }
+
+.entry p a:visited {
+        color: #333;;
+        }
+
+.commentlist li, #commentform input, #commentform textarea {
+        font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+        }
+.commentlist li ul li {
+        font-size: 1em;
+}
+
+.commentlist li {
+        font-weight: bold;
+}
+
+.commentlist li .avatar {
+        position: absolute;
+        top: 4px;
+        right: 0;
+        border: 1px solid #eee;
+        padding: 2px;
+        background: #fff;
+        }
+
+.commentlist cite, .commentlist cite a {
+        font-weight: bold;
+        font-style: normal;
+        color: #333;
+        }
+.commentlist cite, .commentlist span
+{
+  font-size: 1.3em;
+  }
+
+.commentlist p {
+        font-weight: normal;
+        line-height: 1.5em;
+        text-transform: none;
+        }
+
+#commentform p {
+        font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+        }
+
+.commentmetadata {
+        font-weight: normal;
+        }
+
+.alignright {
+        float: right;
+        }
+
+.alignleft {
+        float: left
+        }
+/* End Images */
+
+
+
+/* Begin Lists
+
+        Special stylized non-IE bullets
+        Do not work in Internet Explorer, which merely default to normal bullets. */
+
+html>body .entry ul {
+        margin-left: 0px;
+        padding: 0 0 0 30px;
+        list-style: none;
+        padding-left: 10px;
+        text-indent: -10px;
+        }
+
+html>body .entry li {
+        margin: 7px 0 8px 10px;
+        }
+
+.entry ul li:before, #sidebar ul ul li:before {
+        content: "\00BB \0020";
+        }
+
+.entry ol {
+        padding: 0 0 0 35px;
+        margin: 0;
+        }
+
+.entry ol li {
+        margin: 0;
+        padding: 0;
+        }
+
+.postmetadata ul, .postmetadata li {
+        display: inline;
+        list-style-type: none;
+        list-style-image: none;
+        }
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+        text-align:center;
+        }
+
+select {
+        width: 130px;
+        }
+
+#commentform input {
+        width: 170px;
+        padding: 2px;
+        margin: 5px 5px 1px 0;
+        }
+
+#commentform {
+  float: left;
+  width: 597px;
+        margin: 10px 0 0;
+        }
+#commentform textarea {
+        width: 597px;
+        w\idth: 591px;
+        padding: 2px;
+        }
+#respond:after {
+                content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+#commentform #submit {
+        margin: 0 0 5px auto;
+        float: right;
+        }
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+.alt {
+        margin: 0;
+        padding: 10px;
+        }
+
+.commentlist {
+        padding: 0;
+        text-align: justify;
+        }
+
+.commentlist li {
+        margin: 15px 0 10px;
+        padding: 5px 5px 10px 10px;
+        list-style: none;
+
+        }
+.commentlist li ul li {
+        margin-right: -5px;
+        margin-left: 10px;
+}
+
+.commentlist p {
+        margin: 10px 5px 10px 0;
+}
+.children { padding: 0; }
+
+#commentform p {
+        margin: 5px 0;
+        }
+
+.nocomments {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        }
+
+.commentmetadata {
+        margin: 4px 0 0;
+        display: block;
+        font-size: 1.1em;
+        }
+.commentmetadata, .commentmetadata a {
+        color: #333;
+        }
+/* End Comments */
+
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+        cursor: help;
+        }
+
+acronym, abbr {
+        border-bottom: 1px dashed #999;
+        }
+
+blockquote {
+        margin: 15px 30px 0 10px;
+        padding-left: 20px;
+        border-left: 5px solid #ddd;
+        }
+
+blockquote cite {
+        margin: 5px 0 0;
+        display: block;
+        }
+
+.center {
+        text-align: center;
+        }
+
+.hidden {
+        display: none;
+        }
+
+hr {
+        display: none;
+        }
+
+a img {
+        border: none;
+        }
+
+/* End Various Tags & Classes*/
+
+
+
+/* Captions */
+.aligncenter,
+div.aligncenter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.wp-caption {
+        border: 1px solid #ddd;
+        text-align: center;
+        background-color: #f3f3f3;
+        padding-top: 4px;
+        margin: 10px;
+        -moz-border-radius: 3px;
+        -khtml-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+}
+
+.wp-caption img {
+        margin: 0;
+        padding: 0;
+        border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+        font-size: 11px;
+        line-height: 17px;
+        padding: 0 4px 5px;
+        margin: 0;
+}
+/* End captions */
+
+ol li
+{
+  font-size:1.2em;
+  margin: 10px 0 0;
+}
+
+.entry li
+{
+ font-size:1.2em;
+}
+
+ol.commentlist, ol.commentlist li, ol.commentlist li div
+{
+  float: left;
+  width: 597px;
+  padding: 0;
+  }
+ol.commentlist li
+{
+  position: relative;
+  border-top: 1px dotted #999;
+  margin: 10px 0 0;
+  padding: 10px 0;
+  }
+ol.commentlist li p
+{
+  float: left;
+  margin: 1em 0 0;
+  }
+
+#respond
+{
+ margin-bottom:10px;
+}
+

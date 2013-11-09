@@ -1,0 +1,47 @@
+/*  Global
+------------------------ */
+
+.alkane-clear {
+	clear: both;
+	height: 0px;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.alkane-focus {
+	color: #dc4b39;
+	font-weight: bold;
+}
+
+/*  Tabs
+------------------------ */
+
+.alkane-tabs h3 { 
+	display:none;
+}
+
+.alkane-tabs {
+	margin: 15px 0 15px 0;
+}
+
+.alkane-tabs h2 {
+	margin: 0 8px;
+}
+
+.alkane-tabs-content {
+	padding: 10px;
+}
+
+.alkane-tabs-content a:link,
+.alkane-tabs-content a:visited,
+.alkane-tabs-data a:link,
+.alkane-tabs-data a:visited {
+	color: #dc4b39;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.alkane-tabs-content a:hover,
+.alkane-tabs-data a:hover {
+	text-decoration: underline;
+}

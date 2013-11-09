@@ -1,0 +1,63 @@
+JC One WordPress Theme License Information
+===========================================
+
+# JC One WordPress Theme, Copyright (C) 2010 Netcodes
+
+- License: GNU General Public License, v2 (or newer)
+- License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+
+## Components
+
+### HTML5 Boilerplate
+
+- Source : http://html5boilerplate.com/
+- License URI: https://github.com/h5bp/html5-boilerplate/blob/master/LICENSE.md
+
+### Fancybox
+
+- Source: http://fancybox.net/
+- License: Dual licensed under the MIT and GPL licenses:
+    - http://www.opensource.org/licenses/mit-license.php
+    - http://www.gnu.org/licenses/gpl.html
+
+### Tabify
+
+Tabify, Jan Jarfalk
+
+- Source: http://unwrongest.com/projects/tabify/
+- LIcense: MIT License
+- License URI: http://www.opensource.org/licenses/mit-license.php
+
+## Fonts
+
+Lato, Copyright 2010 Łukasz Dziedzic
+
+- Source: http://www.google.com/webfonts/specimen/Lato
+- License: SIL Open Font License, 1.1
+- License URI: http://scripts.sil.org/OFL
+
+## Icons
+
+Font Awesome by Dave Gandy
+
+- Source: http://fortawesome.github.com/Font-Awesome/
+- License: SIL Open Font License
+- License URI: http://scripts.sil.org/OFL
+
+## Social Logos Icons
+
+Social Logos are custom-created, using Social Logos font.
+
+- Source: http://www.dafont.com/social-logos.font
+- License: Free
